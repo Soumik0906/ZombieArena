@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.30)
 project(ZombieArena)
 
 set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(ROOT_DIR "${CMAKE_SOURCE_DIR}")
 
 find_package(SFML 2.5 COMPONENTS graphics window system audio REQUIRED)
